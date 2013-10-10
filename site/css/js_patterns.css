@@ -1,0 +1,17 @@
+textarea#editor {
+  display: none;
+}
+
+#code-editor {
+  width: 45%;
+  float: left;
+}
+
+#test-runs {
+  width: 45%;
+  float: right;
+}
+
+#code-editor, #test-runs {
+  margin: 0 0.5em;
+}

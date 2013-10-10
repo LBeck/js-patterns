@@ -25,6 +25,6 @@ requirejs.config({
   }
 });
 
-requirejs(['lib/jquery.min','lib/underscore', 'lib/backbone', 'lib/backbone.forms','lib/mustache' ,'js_patterns'], function($) {
+requirejs(['jquery', 'lib/underscore', 'lib/backbone', 'js_patterns'], function() {
   JSP.initialize();
 });
